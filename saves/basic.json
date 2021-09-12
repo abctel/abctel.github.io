@@ -2,16 +2,16 @@
   "configs": {
       "topTaskBar": false,
       "sound": false,
-      "wallpaper": "./res/img/wallpapers/bg1.jpg",
+      "wallpaper": "./res/img/wallpapers/bg3.jpg",
       "wallpaperBlur": false,
-      "wallpaperSlide": false,
+      "wallpaperSlide": true,
       "wallpaperSlideRandom": true,
       "wallpaperSlideItv": 1,
-      "wallpaperSlideTime": 1519442460788,
-      "wallpaperSlideIndex": 8,
+      "wallpaperSlideTime": 1631454266161,
+      "wallpaperSlideIndex": 2,
       "openMax": 9,
-      "idCounter": 174,
-      "themeColor": "rgba(2,35,64,1)",
+      "idCounter": 176,
+      "themeColor": "rgba(58,87,110,1)",
       "autoThemeColor": true,
       "wallpapers": [
           {
@@ -84,7 +84,7 @@
           "addressBar": false,
           "autoRun": 0,
           "background": false,
-          "badge": 0,
+          "badge": 1,
           "desc": "YLUI系统设置面板",
           "icon": {
               "type": "fa",
