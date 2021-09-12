@@ -3,8 +3,8 @@ YL.static = {
   softwareName: 'Abctel Nav Web', //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "1.0.0", // 网站版本号
   iconBtnStart: 'html5', //主图标
-  author: 'null',//作者
-  contactInformation: 'null',//联系方式
+  author: '作者',//作者
+  contactInformation: '联系方式',//联系方式
   officialWebsite: 'https://www.i066.com',//软件官网
   welcome: '加载完毕控制台提示信息',//加载完毕控制台提示信息
   copyrightDetail: '版权详细信息',//版权详细信息
