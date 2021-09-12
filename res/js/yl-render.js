@@ -1166,16 +1166,16 @@ YL.render = function (data) {
           [YL.util.getStrFa('desktop') + YL.lang("DisplayDesktop"), function () {
             that.showDesktop()
           }],
-          [YL.util.getStrFa('credit-card') + YL.lang("Personalization"),
-            [
-              [YL.util.getStrFa('paint-brush') + YL.lang("ThemeColor"), function () {
-                YL.open('yl-system', { data: { nav: 'colors' } })
-              }, !YL.static.changeable],
-              [YL.util.getStrFa('picture-o') + YL.lang("Wallpaper"), function () {
-                YL.open('yl-system', { data: { nav: 'wallpaper' } })
-              }, !YL.static.changeable],
-            ]
-          ],
+          //[YL.util.getStrFa('credit-card') + YL.lang("Personalization"),
+          //  [
+          //    [YL.util.getStrFa('paint-brush') + YL.lang("ThemeColor"), function () {
+          //      YL.open('yl-system', { data: { nav: 'colors' } })
+          //    }, !YL.static.changeable],
+          //    [YL.util.getStrFa('picture-o') + YL.lang("Wallpaper"), function () {
+          //      YL.open('yl-system', { data: { nav: 'wallpaper' } })
+          //    }, !YL.static.changeable],
+          //  ]
+          //],
           //[YL.util.getStrFa('cog') + YL.lang("SystemOptions"), function () {
           //  YL.open('yl-system')
           //}, !YL.static.changeable],
