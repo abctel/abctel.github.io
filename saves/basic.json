@@ -76,7 +76,7 @@
     ],
     "pathRes": "./res",
     "shortcutsSortAuto": true,
-    "debug": false,
+    "debug": true,
     "winBlur": true
   },
   "apps": {
