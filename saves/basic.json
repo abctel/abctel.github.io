@@ -2,16 +2,16 @@
   "configs": {
       "topTaskBar": false,
       "sound": false,
-      "wallpaper": "./res/img/wallpapers/bg3.jpg",
+      "wallpaper": "./res/img/wallpapers/bg11.jpg",
       "wallpaperBlur": false,
-      "wallpaperSlide": true,
+      "wallpaperSlide": false,
       "wallpaperSlideRandom": true,
       "wallpaperSlideItv": 1,
-      "wallpaperSlideTime": 1631454266161,
-      "wallpaperSlideIndex": 2,
+      "wallpaperSlideTime": 1631454492533,
+      "wallpaperSlideIndex": 13,
       "openMax": 9,
-      "idCounter": 176,
-      "themeColor": "rgba(58,87,110,1)",
+      "idCounter": 178,
+      "themeColor": "rgba(67,68,60,1)",
       "autoThemeColor": true,
       "wallpapers": [
           {
