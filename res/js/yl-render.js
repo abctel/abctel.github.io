@@ -1176,9 +1176,9 @@ YL.render = function (data) {
               }, !YL.static.changeable],
             ]
           ],
-          [YL.util.getStrFa('cog') + YL.lang("SystemOptions"), function () {
-            YL.open('yl-system')
-          }, !YL.static.changeable],
+          //[YL.util.getStrFa('cog') + YL.lang("SystemOptions"), function () {
+          //  YL.open('yl-system')
+          //}, !YL.static.changeable],
           '|',
           [YL.util.getStrFa('object-group') + YL.lang("FullScreen"), function () {
             YL.util.enableFullScreen();
