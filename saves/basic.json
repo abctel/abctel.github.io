@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/000.jpg",
+        "wallpaper": "./res/img/wallpapers/bg11.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -114,7 +114,7 @@
             "urlRandomToken": true
         },
         "yl-browser": {
-            "addressBar": true,
+            "addressBar": false,
             "autoRun": 0,
             "background": false,
             "badge": 0,
@@ -158,7 +158,7 @@
                 "bg": "#436fde"
             },
             "openMode": "outer",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -191,7 +191,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": false,
                 "left": true,
@@ -257,7 +257,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -290,7 +290,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -323,7 +323,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -422,7 +422,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -455,7 +455,7 @@
                 "bg": ""
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
