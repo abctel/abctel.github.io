@@ -1,217 +1,595 @@
 {
-  "configs": {
-      "topTaskBar": false,
-      "sound": false,
-      "wallpaper": "./res/img/wallpapers/bg11.jpg",
-      "wallpaperBlur": false,
-      "wallpaperSlide": false,
-      "wallpaperSlideRandom": true,
-      "wallpaperSlideItv": 1,
-      "wallpaperSlideTime": 1631454492533,
-      "wallpaperSlideIndex": 13,
-      "openMax": 9,
-      "idCounter": 178,
-      "themeColor": "rgba(67,68,60,1)",
-      "autoThemeColor": true,
-      "wallpapers": [
-          {
-              "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
-          },
-          {
-              "image": "./res/img/wallpapers/bg1.jpg",
-              "preview": "./res/img/wallpapers/bg1_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg2.jpg",
-              "preview": "./res/img/wallpapers/bg2_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg3.jpg",
-              "preview": "./res/img/wallpapers/bg3_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg4.jpg",
-              "preview": "./res/img/wallpapers/bg4_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg5.jpg",
-              "preview": "./res/img/wallpapers/bg5_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg6.jpg",
-              "preview": "./res/img/wallpapers/bg6_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg7.jpg",
-              "preview": "./res/img/wallpapers/bg7_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg8.jpg",
-              "preview": "./res/img/wallpapers/bg8_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg9.jpg",
-              "preview": "./res/img/wallpapers/bg9_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg10.jpg",
-              "preview": "./res/img/wallpapers/bg10_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg11.jpg",
-              "preview": "./res/img/wallpapers/bg11_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg12.jpg",
-              "preview": "./res/img/wallpapers/bg12_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg13.jpg",
-              "preview": "./res/img/wallpapers/bg13_1.jpg"
-          },
-          {
-              "image": "./res/img/wallpapers/bg14.jpg",
-              "preview": "./res/img/wallpapers/bg14_1.jpg"
-          }
-      ],
-      "pathRes": "./res",
-      "shortcutsSortAuto": true,
-      "debug": true,
-      "winBlur": true
-  },
-  "apps": {
-      "yl-system": {
-          "addressBar": false,
-          "autoRun": 0,
-          "background": false,
-          "badge": 1,
-          "desc": "YLUI系统设置面板",
-          "icon": {
-              "type": "fa",
-              "bg": "#436fde",
-              "content": "gear"
-          },
-          "openMode": "normal",
-          "plugin": false,
-          "position": {
-              "x": "x*0.05",
-              "y": "y*0.05",
-              "left": true,
-              "top": true,
-              "autoOffset": true
-          },
-          "version": "1.0.0",
-          "poweredBy": "YLUI",
-          "resizable": true,
-          "single": true,
-          "size": {
-              "width": "920",
-              "height": "590"
-          },
-          "title": "系统设置",
-          "url": "./res/apps/yl-system/index.html",
-          "customTile": "",
-          "urlRandomToken": true
-      },
-      "yl-browser": {
-          "addressBar": true,
-          "autoRun": 0,
-          "background": false,
-          "badge": 0,
-          "desc": "浏览器",
-          "icon": {
-              "type": "fa",
-              "content": "internet-explorer",
-              "bg": "#3a55c2"
-          },
-          "openMode": "normal",
-          "plugin": false,
-          "position": {
-              "autoOffset": true,
-              "left": true,
-              "top": true,
-              "x": "x*0.1",
-              "y": "y*0.1"
-          },
-          "version": "1.0.0",
-          "poweredBy": "Yuri2",
-          "resizable": true,
-          "single": false,
-          "size": {
-              "height": "y*0.8-80",
-              "width": "x*0.8"
-          },
-          "title": "浏览器",
-          "url": "./res/apps/browser/index.html",
-          "customTile": "",
-          "urlRandomToken": true
-      }
-  },
-  "shortcuts": [
-      {
-          "app": "yl-browser",
-          "title": "浏览器",
-          "params": {},
-          "hash": ""
-      }
-  ],
-  "tiles": [
-      {
-          "title": "系统",
-          "data": [
-              {
-                  "x": 0,
-                  "y": 0,
-                  "w": 4,
-                  "h": 2,
-                  "app": "yl-system",
-                  "title": "系统设置",
-                  "i": "110",
-                  "params": {},
-                  "hash": ""
-              },
-              {
-                  "x": 4,
-                  "y": 0,
-                  "w": 2,
-                  "h": 2,
-                  "app": "yl-browser",
-                  "title": "浏览器",
-                  "i": "146",
-                  "params": {},
-                  "hash": ""
-              }
-          ]
-      }
-  ],
-  "startMenu": {
-      "width": 620,
-      "height": 494,
-      "sidebar": [
-          {
-              "app": "yl-browser",
-              "title": "浏览器",
-              "params": {},
-              "hash": ""
-          },
-          {
-              "app": "yl-system",
-              "title": "系统设置"
-          }
-      ],
-      "menu": {
-          "itemPushed-85": {
-              "app": "yl-browser",
-              "title": "浏览器",
-              "params": {},
-              "hash": ""
-          },
-          "itemPushed-96": {
-              "app": "yl-system",
-              "title": "系统设置",
-              "params": {},
-              "hash": ""
-          }
-      }
-  }
+    "configs": {
+        "topTaskBar": false,
+        "sound": false,
+        "wallpaper": "./res/img/wallpapers/000.jpg",
+        "wallpaperBlur": false,
+        "wallpaperSlide": false,
+        "wallpaperSlideRandom": true,
+        "wallpaperSlideItv": 1,
+        "wallpaperSlideTime": 1631454492533,
+        "wallpaperSlideIndex": 13,
+        "openMax": 9,
+        "idCounter": 194,
+        "themeColor": "rgba(67,68,60,1)",
+        "autoThemeColor": true,
+        "wallpapers": [
+            {
+                "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+            },
+            {
+                "image": "./res/img/wallpapers/bg1.jpg",
+                "preview": "./res/img/wallpapers/bg1_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg2.jpg",
+                "preview": "./res/img/wallpapers/bg2_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg3.jpg",
+                "preview": "./res/img/wallpapers/bg3_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg4.jpg",
+                "preview": "./res/img/wallpapers/bg4_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg5.jpg",
+                "preview": "./res/img/wallpapers/bg5_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg6.jpg",
+                "preview": "./res/img/wallpapers/bg6_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg7.jpg",
+                "preview": "./res/img/wallpapers/bg7_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg8.jpg",
+                "preview": "./res/img/wallpapers/bg8_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg9.jpg",
+                "preview": "./res/img/wallpapers/bg9_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg10.jpg",
+                "preview": "./res/img/wallpapers/bg10_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg11.jpg",
+                "preview": "./res/img/wallpapers/bg11_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg12.jpg",
+                "preview": "./res/img/wallpapers/bg12_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg13.jpg",
+                "preview": "./res/img/wallpapers/bg13_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg14.jpg",
+                "preview": "./res/img/wallpapers/bg14_1.jpg"
+            }
+        ],
+        "pathRes": "./res",
+        "shortcutsSortAuto": true,
+        "debug": true,
+        "winBlur": true
+    },
+    "apps": {
+        "yl-system": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "bg": "#436fde",
+                "content": "gear"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "x*0.05",
+                "y": "y*0.05",
+                "left": true,
+                "top": true,
+                "autoOffset": true
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "width": "920",
+                "height": "590"
+            },
+            "title": "系统设置",
+            "url": "./res/apps/yl-system/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "yl-browser": {
+            "addressBar": true,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "浏览器",
+            "icon": {
+                "type": "fa",
+                "content": "internet-explorer",
+                "bg": "#3a55c2"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "浏览器",
+            "url": "./res/apps/browser/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-180": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 1,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "github",
+                "bg": "#436fde"
+            },
+            "openMode": "outer",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "GitHub",
+            "url": "https://github.com/abctel/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-181": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "tinyMediaManager",
+            "icon": {
+                "type": "img",
+                "content": "./ico/tinyMediaManager.jpg",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": false,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "TMM",
+            "url": "https://i.i066.com:5800/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-182": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/Me.ico",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "My Docment",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-183": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/Jellyfin.png",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Jellyfin",
+            "url": "https://i.i066.com:8920/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-184": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/imageres_149.ico",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Computer",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-185": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/PR Ikuai.ico",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "NetWork",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-187": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/unraid.png",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "unRaid",
+            "url": "https://i.i066.com:889",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-188": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/ikuai.png",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "公司网络",
+            "url": "https://i.i066.com:89",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-189": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/ikuai.png",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "家庭网络",
+            "url": "https://home.i066.com",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-193": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/Aria2.jpg",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "AriaNG Pro",
+            "url": "https://p3terx.gitee.io/ariang/",
+            "customTile": "",
+            "urlRandomToken": false
+        }
+    },
+    "shortcuts": [
+        {
+            "app": "app-182",
+            "title": "My Docment",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-184",
+            "title": "Computer",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-185",
+            "title": "NetWork",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "yl-browser",
+            "title": "浏览器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-183",
+            "title": "Jellyfin",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-181",
+            "title": "TMM",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-187",
+            "title": "unRaid",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-193",
+            "title": "AriaNG Pro",
+            "params": {},
+            "hash": ""
+        }
+    ],
+    "tiles": [
+        {
+            "title": "网络管理",
+            "data": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 2,
+                    "h": 2,
+                    "app": "app-188",
+                    "title": "公司网络",
+                    "i": "191",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "w": 2,
+                    "h": 2,
+                    "app": "app-189",
+                    "title": "家庭网络",
+                    "i": "192",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "startMenu": {
+        "width": 620,
+        "height": 494,
+        "sidebar": [
+            {
+                "app": "yl-browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "yl-system",
+                "title": "系统设置"
+            }
+        ],
+        "menu": {
+            "itemPushed-85": {
+                "app": "yl-browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-96": {
+                "app": "yl-system",
+                "title": "系统设置",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-186": {
+                "app": "app-180",
+                "title": "GitHub",
+                "params": {},
+                "hash": ""
+            }
+        }
+    }
 }
