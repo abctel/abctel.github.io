@@ -10,8 +10,8 @@
         "wallpaperSlideTime": 1631454492533,
         "wallpaperSlideIndex": 13,
         "openMax": 9,
-        "idCounter": 196,
-        "themeColor": "rgba(67,68,60,1)",
+        "idCounter": 198,
+        "themeColor": "rgba(20,19,19,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -475,6 +475,39 @@
             "url": "https://p3terx.gitee.io/ariang/",
             "customTile": "",
             "urlRandomToken": false
+        },
+        "app-196": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./ico/Synology.jpeg",
+                "bg": "rgb(109,114,198)"
+            },
+            "openMode": "max",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Synology",
+            "url": "https://i.i066.com:5001",
+            "customTile": "",
+            "urlRandomToken": false
         }
     },
     "shortcuts": [
@@ -493,12 +526,6 @@
         {
             "app": "app-185",
             "title": "NetWork",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "yl-browser",
-            "title": "浏览器",
             "params": {},
             "hash": ""
         },
@@ -523,6 +550,12 @@
         {
             "app": "app-193",
             "title": "AriaNG Pro",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-196",
+            "title": "Synology",
             "params": {},
             "hash": ""
         }
