@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>7200U安装PVE至Emmc</title>
+      <link href="/posts/8d85f16d/"/>
+      <url>/posts/8d85f16d/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这款7200U主板在安装PVE至emmc过程中，最后会提示安装失败，经过搜索引擎的帮助，终于找到正确安装方式。</p><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol><li>正常启动PVE安装程序，进入安装初始化界面。</li><li>启动后点击 Install Proxmox VE （Debug Mode）。</li><li>在第一次提示输入命令的时候输入 Ctrl-D ，继续安装过程。</li><li>在第二次提示输入命令的时候输入脚本编辑命令，如下：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/bin/proxinstall</span><br></pre></td></tr></table></figure></li><li>进入代码编辑界面后，按一次 &#x2F; 键进入查找模式后输入以下内容：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unable to get device</span><br></pre></td></tr></table></figure></li><li>上一步找到后，先按 Entel 键确认改行，再按 i 键进入编辑模式，最后将下面内容进行修改：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">修改前</span></span><br><span class="line">&#125; elsif ($dev =~ m|^/dev/[^/]+/hd[a-z]$|) &#123;</span><br><span class="line">        return &quot;$&#123;dev&#125;$partnum&quot;;</span><br><span class="line">    &#125; elsif ($dev =~ m|^/dev/nvme\d+n\d+$|) &#123;</span><br><span class="line">        return &quot;$&#123;dev&#125;p$partnum&quot;;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        die &quot;unable to get device for partition $partnum on device $dev\n&quot;;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">修改后</span></span><br><span class="line">&#125; elsif ($dev =~ m|^/dev/[^/]+/hd[a-z]$|) &#123;</span><br><span class="line">        return &quot;$&#123;dev&#125;$partnum&quot;;</span><br><span class="line">    &#125; elsif ($dev =~ m|^/dev/nvme\d+n\d+$|) &#123;</span><br><span class="line">        return &quot;$&#123;dev&#125;p$partnum&quot;;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        return &quot;$&#123;dev&#125;p$partnum&quot;;  # 修改这一行</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li><li>先按 Esc 退出编辑模式，再按输入 :wq 保存退出。</li><li>保存成功后按 Ctrl + D 进入图形安装界面按步骤正常安装即可识别到内置EMMC。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> PVE </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 7200U </tag>
+            
+            <tag> PVE </tag>
+            
+            <tag> EMMC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开启爱快（ikuai）内网中公网IPV6地址分配功能及域名解析IPV6地址</title>
       <link href="/posts/72aeb726/"/>
       <url>/posts/72aeb726/</url>
@@ -13,14 +42,18 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> 搞机一下 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Ikuai </tag>
+            
+            <tag> IPV6 </tag>
+            
+            <tag> DDNS </tag>
             
         </tags>
       
@@ -38,14 +71,16 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> 黑苹果 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Macos </tag>
+            
+            <tag> Lenovo X390 </tag>
             
         </tags>
       
