@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>http://www.i066.com/posts/b8805e56/</loc>
+    
+    <lastmod>2022-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.i066.com/posts/f024b184/</loc>
     
     <lastmod>2022-08-13</lastmod>
@@ -101,7 +110,25 @@
   </url>
   
   <url>
-    <loc>http://www.i066.com/posts/b8805e56/</loc>
+    <loc>http://www.i066.com/posts/20ef0372/</loc>
+    
+    <lastmod>2022-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.i066.com/posts/8391f167/</loc>
+    
+    <lastmod>2022-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.i066.com/posts/205dc920/</loc>
     
     <lastmod>2022-08-13</lastmod>
     
@@ -190,33 +217,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://www.i066.com/posts/20ef0372/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.i066.com/posts/8391f167/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.i066.com/posts/205dc920/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://www.i066.com/</loc>
@@ -227,6 +227,20 @@
 
   
   <url>
+    <loc>http://www.i066.com/tags/ARM/</loc>
+    <lastmod>2022-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.i066.com/tags/EMMC/</loc>
+    <lastmod>2022-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.i066.com/tags/7200U/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -235,13 +249,6 @@
   
   <url>
     <loc>http://www.i066.com/tags/PVE/</loc>
-    <lastmod>2022-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.i066.com/tags/EMMC/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -284,13 +291,6 @@
   
   <url>
     <loc>http://www.i066.com/tags/ALLWINER-A20/</loc>
-    <lastmod>2022-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.i066.com/tags/ARM/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -390,6 +390,13 @@
   </url>
   
   <url>
+    <loc>http://www.i066.com/categories/OpenWRT/</loc>
+    <lastmod>2022-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.i066.com/categories/PVE/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -398,13 +405,6 @@
   
   <url>
     <loc>http://www.i066.com/categories/VMWare/</loc>
-    <lastmod>2022-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.i066.com/categories/OpenWRT/</loc>
     <lastmod>2022-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

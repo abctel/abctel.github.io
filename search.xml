@@ -20,11 +20,11 @@
       
         <tags>
             
+            <tag> EMMC </tag>
+            
             <tag> 7200U </tag>
             
             <tag> PVE </tag>
-            
-            <tag> EMMC </tag>
             
         </tags>
       
@@ -149,11 +149,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> U-Boot </tag>
             
@@ -180,11 +180,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> Kernel </tag>
             
@@ -211,11 +211,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> DTS </tag>
             
@@ -242,11 +242,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
         </tags>
       
@@ -323,11 +323,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> Docker </tag>
             
@@ -354,11 +354,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> Docker </tag>
             
@@ -385,11 +385,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
         </tags>
       
@@ -414,11 +414,11 @@
       
         <tags>
             
+            <tag> ARM </tag>
+            
             <tag> HiMedia Q2ii </tag>
             
             <tag> ALLWINER A20 </tag>
-            
-            <tag> ARM </tag>
             
             <tag> Ubuntu ARM </tag>
             
